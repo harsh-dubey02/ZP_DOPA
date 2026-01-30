@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service Definition for DOPA'
+define service ZSD_EOPA {
+  expose ZC_DOPA_EOPA;
+}

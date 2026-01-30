@@ -1,0 +1,34 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "An SAP Fiori application.",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Dopa and Eopa"
+  },
+  "ui5AppDetails": {
+    "appId": "zpdopa"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_718A44F34DA2A072AC0FF550918ED1F4066BBBA3_TM",
+    "semanticObject": "zp_dopa",
+    "action": "display",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_718A44F34DA2A072AC0FF550918ED1F4066BBBA3_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Dopa and Eopa"
+      }
+    }
+  ]
+}

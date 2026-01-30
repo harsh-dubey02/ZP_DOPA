@@ -1,0 +1,37 @@
+@Metadata.layer: #CORE
+@UI.headerInfo:{
+    typeName: 'DOPA AND EOPA',
+    typeNamePlural: 'DOPA AND EOPA',
+    title:{ type: #STANDARD, value: 'DOPA' } }
+
+annotate entity ZC_DOPA_EOPA
+    with 
+{
+    
+ @UI.facet: [{ id : 'Eopa',
+  purpose: #STANDARD,
+  type: #IDENTIFICATION_REFERENCE,
+  label: 'DOPA AND EOPA',
+   position: 10 }]
+ 
+ 
+ @UI.lineItem:       [{ position: 10, label: 'DOPA' }]
+  @UI.identification: [{ position: 10, label: 'DOPA' }]
+  @UI.selectionField: [{ position: 10 }]
+  Dopa;
+  
+   
+ @UI.lineItem:       [{ position: 10, label: 'EOPA' }]
+  @UI.identification: [{ position: 10, label: 'EOPA' }]
+  @UI.selectionField: [{ position: 10 }]
+  Eopa;
+  
+  
+  
+  
+  
+  
+  
+  
+    
+}

@@ -1,0 +1,26 @@
+managed implementation in class zbp_i_dopa_eopa unique;
+strict ( 2 );
+
+define behavior for ZI_DOPA_EOPA //alias <alias_name>
+persistent table zdb_dopa
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create ( authorization : global );
+  update;
+  delete;
+  field ( readonly : update) Eopa;
+
+  mapping for ZDB_DOPA{
+
+     Dopa = dopa;
+    Eopa = eopa;
+
+  }
+
+
+
+
+
+}
